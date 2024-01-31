@@ -1,3 +1,4 @@
+def call() {
 pipeline {
     agent{
         label 'maven'
@@ -19,4 +20,5 @@ pipeline {
             }
         }
     }
+}
 }
